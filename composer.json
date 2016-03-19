@@ -1,0 +1,11 @@
+{
+  "name": "todo-manager",
+  "description": "single-page aplikacija za upravljanje s seznamom opravil - TODO list",
+  "require": {
+    "cakephp/cakephp": "2.8.*",
+    "cakephp/debug_kit": "2.2.*"
+  },
+  "config": {
+    "vendor-dir": "Vendor/"
+  }
+}
