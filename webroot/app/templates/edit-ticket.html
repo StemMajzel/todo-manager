@@ -44,7 +44,7 @@
     <button type="submit" class="btn btn-default" ng-click="saveTicket()">{{action_name}}</button>
     <button type="submit" class="btn btn-default" ng-show="ticket_status != 'new'" confirmed-click="deleteTicket(ticket.id)" ng-confirm-click="Do you realy want to delete ticket?">Delete ticket</button>
     <button type="submit" class="btn btn-default pull-right" ng-show="ticket_status == 'open'" ng-click="closeTicket(ticket.id)">Close ticket</button>
-    <button type="submit" class="btn btn-default pull-right" ng-show="ticket_status == 'closed'" ng-click="openTicket(ticket.id)">Open ticket</button>
+    <button type="submit" class="btn btn-default pull-right" ng-show="ticket_status == 'closed'" ng-click="openTicket(ticket.id)">Reopen ticket</button>
 
   </form>
 
