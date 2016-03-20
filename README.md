@@ -162,9 +162,7 @@ public $components = array(
   CREATE TABLE IF NOT EXISTS `user` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `username` varchar(128) CHARACTER SET utf8 NOT NULL,
-    `password` varchar(40) CHARACTER SET utf8 NOT NULL COMMENT 'Hashed password',
-    `role` varchar(32) CHARACTER SET utf8 NOT NULL COMMENT 'User role - descriptive',
-    `created` datetime NOT NULL COMMENT 'User created time',
+    `created` datetime DEFAULT NULL COMMENT 'User created time',
     `modified` datetime DEFAULT NULL COMMENT 'User modified time',
     PRIMARY KEY (`id`)
   ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
