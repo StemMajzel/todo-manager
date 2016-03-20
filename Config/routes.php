@@ -33,3 +33,10 @@
  * the built-in default routes.
  */
 	require CAKE . 'Config' . DS . 'routes.php';
+
+	// we need this to expose tickets and users as REST resources
+	Router::mapResources("tickets");
+	Router::mapResources("users");
+
+	// parse according to extension (JSON and XML are natively supported)
+	Router::parseExtensions();

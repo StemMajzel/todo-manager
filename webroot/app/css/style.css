@@ -1,0 +1,16 @@
+table .controls {
+  cursor : default;
+}
+table .controls .glyphicon {
+  margin : 5px;
+  cursor : pointer;
+}
+table th {
+  cursor : default;
+}
+table th.sortable {
+  cursor : pointer;
+}
+.pagination li {
+  cursor : pointer;
+}

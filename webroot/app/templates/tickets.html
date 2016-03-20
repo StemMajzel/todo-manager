@@ -1,0 +1,57 @@
+<div ng-controller="TicketListController">
+
+  <h1 class="page-header">Tickets</h1>
+
+  <ul class="pagination">
+    <li ng-repeat="p in pages" ng-class="activePage(p.page)" ng-click="changePage(p.page)"><a>{{p.text}}</a></li>
+  </ul>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th nowrap class="sortable" ng-click="sort('Ticket.title')">Title
+          <span class="glyphicon sort-icon" ng-show="sort_field=='Ticket.title'" ng-class="{'glyphicon-chevron-up':sort_order,'glyphicon-chevron-down':!sort_order}"></span>
+        </th>
+
+        <th>Description</th>
+
+        <th nowrap class="sortable" ng-click="sort('Ticket.priority')">Priority
+          <span class="glyphicon sort-icon" ng-show="sort_field=='Ticket.priority'" ng-class="{'glyphicon-chevron-up':sort_order,'glyphicon-chevron-down':!sort_order}"></span>
+        </th>
+
+        <th nowrap class="sortable" ng-click="sort('User.username')">User
+          <span class="glyphicon sort-icon" ng-show="sort_field=='User.username'" ng-class="{'glyphicon-chevron-up':sort_order,'glyphicon-chevron-down':!sort_order}"></span>
+        </th>
+
+        <th nowrap class="sortable" ng-click="sort('Ticket.created')">Created
+          <span class="glyphicon sort-icon" ng-show="sort_field=='Ticket.created'" ng-class="{'glyphicon-chevron-up':sort_order,'glyphicon-chevron-down':!sort_order}"></span>
+        </th>
+
+        <th nowrap class="sortable" ng-click="sort('Ticket.modified')">Modified
+          <span class="glyphicon sort-icon" ng-show="sort_field=='Ticket.modified'" ng-class="{'glyphicon-chevron-up':sort_order,'glyphicon-chevron-down':!sort_order}"></span>
+        </th>
+
+        <th nowrap class="sortable" ng-click="sort('Ticket.closed')">Closed
+          <span class="glyphicon sort-icon" ng-show="sort_field=='Ticket.closed'" ng-class="{'glyphicon-chevron-up':sort_order,'glyphicon-chevron-down':!sort_order}"></span>
+        </th>
+
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="t in tickets">
+        <td>{{t.Ticket.title}}</td>
+        <td>{{t.Ticket.description}}</td>
+        <td>{{t.Ticket.priority}}</td>
+        <td>{{t.User.username}}</td>
+        <td>{{t.Ticket.created | date:'short'}}</td>
+        <td>{{t.Ticket.modified | date:'short'}}</td>
+        <td>{{t.Ticket.closed | date:'short'}}</td>
+        <td class="controls">
+          <a ng-click="editTicket(t.Ticket.id)"><div class="glyphicon glyphicon-pencil"></div></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

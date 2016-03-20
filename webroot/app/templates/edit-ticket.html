@@ -1,0 +1,51 @@
+<div ng-controller="EditTicketController">
+
+  <h1 class="page-header">{{title}}</h1>
+
+  <form name="newTicketForm">
+
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input id="title" class="form-control" type="text" required="true" placeholder="Enter ticket title" ng-model="ticket.title"></input>
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea id="description" class="form-control" required="true" placeholder="Enter ticket descrption" ng-model="ticket.description"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="priority">Priority</label>
+      <select class="form-control" id="priority" ng-model="ticket.priority" ng-options="p for p in [1,2,3,4,5] track by p" required="true">
+        <option value=""> -- Select priority -- </option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="user_id">Assign to</label>
+      <select class="form-control" id="user_id" ng-model="ticket.user_id" required="true">
+        <option value=""> -- Select user -- </option>
+        <option ng-repeat="u in users" value="{{u.User.id}}">{{u.User.username}}</option>
+      </select>
+    </div>
+
+    <div ng-show="ticket.created" class="form-group">
+      <label>Created: {{ticket.created | date:'short'}}</label>
+    </div>
+
+    <div ng-show="ticket.modified" class="form-group">
+      <label>Modified: {{ticket.modified | date:'short'}}</label>
+    </div>
+
+    <div ng-show="ticket.closed" class="form-group">
+      <label>Closed: {{ticket.closed | date:'short'}}</label>
+    </div>
+
+    <button type="submit" class="btn btn-default" ng-click="saveTicket()">{{action_name}}</button>
+    <button type="submit" class="btn btn-default" ng-show="ticket_status != 'new'" confirmed-click="deleteTicket(ticket.id)" ng-confirm-click="Do you realy want to delete ticket?">Delete ticket</button>
+    <button type="submit" class="btn btn-default pull-right" ng-show="ticket_status == 'open'" ng-click="closeTicket(ticket.id)">Close ticket</button>
+    <button type="submit" class="btn btn-default pull-right" ng-show="ticket_status == 'closed'" ng-click="openTicket(ticket.id)">Open ticket</button>
+
+  </form>
+
+</div>

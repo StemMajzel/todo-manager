@@ -107,7 +107,9 @@ public $components = array(
     /app
       /lib
         /bootstrap
-        angular.min.js
+        /angular
+          angular.min.js
+          angular-route.min.js
         jquery.min.js
 ```
 
@@ -121,7 +123,8 @@ public $components = array(
       <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
       <script src="lib/jquery.min.js"></script>
       <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-      <script src="lib/angular.min.js"></script>
+      <script src="lib/angular/angular.min.js"></script>
+      <script src="lib/angular/angular-route.min.js"></script>
     </head>
     <body>
       <!--TODO -->

@@ -574,3 +574,1023 @@ Request URL: /webroot/app/lib/angular.m%20in.js
 Stack Trace:
 #0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-03-19 11:43:31 Error: [MissingControllerException] Controller class Tickets.jsonController could not be found.
+Exception Attributes: array (
+  'class' => 'Tickets.jsonController',
+  'plugin' => NULL,
+)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 11:44:54 Error: [MissingControllerException] Controller class Tickets.jsonController could not be found.
+Exception Attributes: array (
+  'class' => 'Tickets.jsonController',
+  'plugin' => NULL,
+)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 11:44:56 Error: [MissingControllerException] Controller class Tickets.jsonController could not be found.
+Exception Attributes: array (
+  'class' => 'Tickets.jsonController',
+  'plugin' => NULL,
+)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 11:45:33 Error: [MissingControllerException] Controller class Tickets.jsonController could not be found.
+Exception Attributes: array (
+  'class' => 'Tickets.jsonController',
+  'plugin' => NULL,
+)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 11:46:08 Error: [MissingControllerException] Controller class Tickets.jsonController could not be found.
+Exception Attributes: array (
+  'class' => 'Tickets.jsonController',
+  'plugin' => NULL,
+)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 11:48:13 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1483): Model->schema()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1470): Model->hasField('title', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(907): Model->hasField(Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Scaffold.php(429): Model->__get('displayField')
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Scaffold.php(136): Scaffold->_associations()
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(536): Scaffold->__construct(Object(TicketsController), Object(CakeRequest))
+#8 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(495): Controller->_getScaffold(Object(CakeRequest))
+#9 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#11 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-19 12:07:39 Error: [MissingControllerException] Controller class TicketController could not be found.
+Exception Attributes: array (
+  'class' => 'TicketController',
+  'plugin' => NULL,
+)
+Request URL: /ticket
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 12:07:50 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 12:12:02 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:12:02 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:12:30 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:12:30 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:13:27 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/vagrant/Controller/TicketsController.php, line 17]
+2016-03-19 12:13:27 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/Contro...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/Contro...', 17, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/Contro...', 17, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-19 12:13:40 Error: Fatal Error (4): syntax error, unexpected 'debug' (T_STRING) in [/vagrant/Controller/TicketsController.php, line 21]
+2016-03-19 12:13:40 Error: [FatalErrorException] syntax error, unexpected 'debug' (T_STRING)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/Contro...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/Contro...', 21, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/Contro...', 21, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-19 12:13:45 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:13:46 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:14:02 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:14:02 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:14:03 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:14:03 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:14:04 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:14:04 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:14:05 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:14:05 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:15:12 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:15:12 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:15:25 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:15:25 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:16:56 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:22:08 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 45680336 bytes) in [/vagrant/Vendor/cakephp/cakephp/lib/Cake/Utility/Debugger.php, line 603]
+2016-03-19 12:22:08 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 45680336 bytes)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/vagrant/Vendor...', 603)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/vagrant/Vendor...', 603, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/vagrant/Vendor...', 603, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-19 12:22:35 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 30065292 bytes) in [/vagrant/Vendor/cakephp/cakephp/lib/Cake/Utility/Debugger.php, line 555]
+2016-03-19 12:22:35 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 30065292 bytes)
+Request URL: /tickets.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/vagrant/Vendor...', 555)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/vagrant/Vendor...', 555, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/vagrant/Vendor...', 555, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-19 12:24:01 Error: [MissingViewException] View file "Tickets/zip/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/zip/index.ctp',
+)
+Request URL: /tickets.zip
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:24:22 Error: [MissingViewException] View file "Tickets/atom/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/atom/index.ctp',
+)
+Request URL: /tickets.atom
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:24:32 Error: [MissingViewException] View file "Tickets/js/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/js/index.ctp',
+)
+Request URL: /tickets.js
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:24:51 Error: [MissingViewException] View file "Tickets/text/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/text/index.ctp',
+)
+Request URL: /tickets.text
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:24:54 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets.html
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:25:57 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:26:06 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:26:13 Error: [MissingActionException] Action TicketsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'index',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 12:26:31 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:26:45 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:29:35 Error: [MissingActionException] Action TicketsController:::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => ':1',
+)
+Request URL: /tickets/:1.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 12:30:21 Error: [MissingActionException] Action TicketsController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => '1',
+)
+Request URL: /tickets/1.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 12:31:29 Error: [MissingActionException] Action TicketsController:::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => ':1',
+)
+Request URL: /tickets/:1.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 12:31:43 Error: [MissingActionException] Action TicketsController::view:1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'view:1',
+)
+Request URL: /tickets/view:1.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 12:31:50 Error: [MissingActionException] Action TicketsController::view(1)() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => 'view(1)',
+)
+Request URL: /tickets/view(1).json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 12:33:24 Error: [MissingActionException] Action TicketsController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => '1',
+)
+Request URL: /tickets/1
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 12:33:30 Error: [MissingActionException] Action TicketsController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => '1',
+)
+Request URL: /tickets/1.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 12:40:17 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/vagrant/Controller/TicketsController.php, line 40]
+2016-03-19 12:40:17 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /tickets/add
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/Contro...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/Contro...', 40, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/Contro...', 40, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-19 12:40:25 Error: [MissingViewException] View file "Tickets/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/add.ctp',
+)
+Request URL: /tickets/add
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 12:43:53 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/vagrant/Model/Ticket.php, line 56]
+2016-03-19 12:43:53 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /tickets/add.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/Model/...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/Model/...', 56, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/Model/...', 56, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-19 12:49:00 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/vagrant/Model/Ticket.php, line 26]
+2016-03-19 12:49:00 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /tickets/add.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/Model/...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/Model/...', 26, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/Model/...', 26, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-19 12:50:33 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/vagrant/Model/Ticket.php, line 26]
+2016-03-19 12:50:33 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /tickets/add.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/Model/...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/Model/...', 26, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/Model/...', 26, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-19 15:40:36 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/undefined/tickets.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 15:40:37 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/undefined/tickets.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 15:41:05 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/undefined/tickets.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 15:41:26 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/undefined/tickets.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 16:46:28 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 16:46:28 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 16:51:26 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/templates/new-ticket.html
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 16:52:20 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/templates/new-ticket.html
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 16:52:24 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/templates/new-ticket.html
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 16:56:26 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/templates/new-ticket.html
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 17:08:32 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/templates/new-ticket.html
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 17:08:37 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/templates/new-ticket.html
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 18:19:24 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/templates/new-ticket.html
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-19 18:53:03 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 18:53:03 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 18:53:15 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 18:53:28 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-19 18:56:23 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 18:56:29 Error: [MissingViewException] View file "Tickets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/index.ctp',
+)
+Request URL: /tickets
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-19 18:58:10 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user.json
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-20 12:59:51 Error: [MissingActionException] Action TicketsController::34() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketsController',
+  'action' => '34',
+)
+Request URL: /tickets/34.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#2 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-20 13:00:50 Error: [MissingViewException] View file "Tickets/json/range.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tickets/json/range.ctp',
+)
+Request URL: /tickets/range.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): JsonView->render(NULL, NULL)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#4 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-03-20 16:05:02 Error: Fatal Error (4): syntax error, unexpected ')' in [/vagrant/Controller/TicketsController.php, line 59]
+2016-03-20 16:05:02 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /tickets/save.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/Contro...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/Contro...', 59, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/Contro...', 59, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-20 16:52:43 Error: Fatal Error (4): syntax error, unexpected '$order_direction' (T_VARIABLE), expecting ')' in [/vagrant/Controller/TicketsController.php, line 32]
+2016-03-20 16:52:43 Error: [FatalErrorException] syntax error, unexpected '$order_direction' (T_VARIABLE), expecting ')'
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/Contro...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/Contro...', 32, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/Contro...', 32, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-20 16:52:53 Error: Fatal Error (4): syntax error, unexpected '$order_direction' (T_VARIABLE), expecting ')' in [/vagrant/Controller/TicketsController.php, line 32]
+2016-03-20 16:52:53 Error: [FatalErrorException] syntax error, unexpected '$order_direction' (T_VARIABLE), expecting ')'
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/Contro...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/Contro...', 32, Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/Contro...', 32, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-20 16:53:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Ticket`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Ticket`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Ticket`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Ticket), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#7 [internal function]: TicketsController->range('0', '2')
+#8 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#9 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#11 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-20 16:53:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Ticket`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Ticket`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Ticket`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Ticket), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#7 [internal function]: TicketsController->range('0', '2')
+#8 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#9 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#11 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-20 16:53:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Ticket`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Ticket`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Ticket`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Ticket), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#7 [internal function]: TicketsController->range('0', '2')
+#8 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#9 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#11 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-20 16:54:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ticket.id' in 'order clause'
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Ticket`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Ticket`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Ticket`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Ticket), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#7 [internal function]: TicketsController->range('0', '2')
+#8 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#9 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#11 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-20 16:54:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ticket.id' in 'order clause'
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Ticket`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Ticket`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Ticket`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Ticket), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#7 [internal function]: TicketsController->range('0', '2')
+#8 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#9 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#11 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-20 16:55:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ticket.id' in 'order clause'
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Ticket`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Ticket`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Ticket`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Ticket), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#7 [internal function]: TicketsController->range('0', '2')
+#8 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#9 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#11 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-20 16:55:07 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Ticket`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Ticket`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Ticket`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Ticket), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#7 [internal function]: TicketsController->range('0', '2')
+#8 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#9 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#11 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-20 16:55:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Ticket.user' in 'order clause'
+Request URL: /tickets/range/0/2.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Ticket`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Ticket`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `Ticket`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Ticket), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#7 [internal function]: TicketsController->range('0', '2')
+#8 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#9 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#11 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-20 20:28:44 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/lib/angular/angular-route-min.js
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-20 20:28:44 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/lib/angular/angular-min.js
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-20 20:28:45 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/lib/angular/angular-route-min.js
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-20 20:28:50 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/lib/angular/angular-min.js
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-20 20:28:50 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/app/lib/angular/angular-route-min.js
+Stack Trace:
+#0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
