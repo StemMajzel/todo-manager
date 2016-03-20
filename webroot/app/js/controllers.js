@@ -14,7 +14,8 @@
     };
 
     // Set appUrl
-    $rootScope.appUrl = "http://127.0.0.1";
+    //$rootScope.appUrl = "http://127.0.0.1";
+    $rootScope.appUrl = "";  // so we can access REST backend on vagrant share
   });
 
   /**
