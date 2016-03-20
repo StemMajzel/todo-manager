@@ -23,16 +23,23 @@ After that, it only takes one command to set everything up:
 vagrant up && composer install
 ```
 
-Install database schema:
+Install database schema (ssh to Vagrant VM "vagrant ssh"):
 ```sh
-Console/cake schema create
+cd /var/www/html
+Console/cake schema create [y] [y]
 ```
 
-This is installed and downloaded automatically:
+Point your browser to:
+```sh
+http://127.0.0.1/webroot/app
+```
+
+This is downloaded and installed automatically:
 
 - Apache strežnik (installed and configured)
 - MySQL podatkovna baza (installed and configured)
 - CakePHP 2.x ogrodje
+- Database schema
 
 ## Initial project setup (only relevant when creating a project)
 
@@ -168,8 +175,8 @@ public $components = array(
   ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
   INSERT INTO `user` (`id`, `username`, `created`, `modified`) VALUES
-  (1, 'admin', '2016-03-19 00:00:00', NULL),
-  (2, 'user', '2016-03-19 00:00:00', NULL);
+  (1, 'Jack', '2016-03-19 00:00:00', NULL),
+  (2, 'John', '2016-03-19 00:00:00', NULL);
 ```
 
 ## License
