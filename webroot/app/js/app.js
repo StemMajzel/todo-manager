@@ -20,6 +20,14 @@
         templateUrl : 'templates/edit-ticket.html',
         controller : 'EditTicketController'
       });
+      $routeProvider.when('/new-user', {
+        templateUrl : 'templates/edit-user.html',
+        controller : 'EditUserController'
+      });
+      $routeProvider.when('/edit-user/:id', {
+        templateUrl : 'templates/edit-user.html',
+        controller : 'EditUserController'
+      });
       $routeProvider.otherwise({
         redirectTo : '/tickets'
       });

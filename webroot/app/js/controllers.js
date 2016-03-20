@@ -26,7 +26,7 @@
     $scope.sort_field = 'Ticket.priority';
     $scope.sort_order = 'asc';
     $scope.items_start = 0;
-    $scope.items_per_page = 7;
+    $scope.items_per_page = 5;
     $scope.current_page = 1;
     $scope.number_of_pages = 1;
 
@@ -36,43 +36,45 @@
     }
 
     // get pages
-    getPages = function(max_pages_radius) {
-      var min = clamp($scope.current_page - max_pages_radius, 1, $scope.number_of_pages);
-      var max = clamp($scope.current_page + max_pages_radius, 1, $scope.number_of_pages);
+    var getPages = function(max_pages_radius) {
       var pages = [];
+      if ($scope.number_of_pages > 0) {
+        var min = clamp($scope.current_page - max_pages_radius, 1, $scope.number_of_pages);
+        var max = clamp($scope.current_page + max_pages_radius, 1, $scope.number_of_pages);
 
-      if (min > 1) {
-        pages.push({
-          page : 1,
-          text : '<<'
-        })
+        if (min > 1) {
+          pages.push({
+            page : 1,
+            text : '<<'
+          })
+        }
+
+        for (var i = min; i <= max; i++) {
+          pages.push({
+            page : i,
+            text : i
+          });
+        }
+
+        if (max < $scope.number_of_pages) {
+          pages.push({
+            page : $scope.number_of_pages,
+            text : '>>'
+          })
+        }
       }
-
-      for (var i = min; i <= max; i++) {
-        pages.push({
-          page : i,
-          text : i
-        });
-      }
-
-      if (max < $scope.number_of_pages) {
-        pages.push({
-          page : $scope.number_of_pages,
-          text : '>>'
-        })
-      }
-
       return pages;
     }
 
     // Get all tickets
     var getTickets = function() {
-      $http.get($rootScope.appUrl + '/tickets/range/' + $scope.items_start + '/' + $scope.items_per_page + '/' + ($scope.sort_field ? $scope.sort_field : 'Ticket.priority') + '/' + ($scope.sort_order ? 'asc' : 'desc') + '.json').success(function(data, status, headers, config) {
-        $scope.tickets = data.tickets.tickets;
-        $scope.tickets_count = data.tickets.count;
-        $scope.number_of_pages = Math.ceil($scope.tickets_count / $scope.items_per_page);
-        $scope.pages = getPages(2);
-      });
+      $http.get($rootScope.appUrl + '/tickets/range/' + $scope.items_start + '/' + $scope.items_per_page + '/' + ($scope.sort_field ? $scope.sort_field : 'Ticket.priority') + '/' + ($scope.sort_order ? 'asc' : 'desc') + '.json')
+        .success(function(data, status, headers, config) {
+          $scope.tickets = data.tickets.tickets;
+          $scope.tickets_count = data.tickets.count;
+          $scope.number_of_pages = Math.ceil($scope.tickets_count / $scope.items_per_page);
+          $scope.pages = getPages(2);
+        });
     }
     getTickets();
 
@@ -102,12 +104,20 @@
   });
 
   /**
-  * New ticket controller
+  * Edit ticket controller
   */
   controllers.controller('EditTicketController', function($scope, $rootScope, $http, $location, $routeParams) {
 
     // Create empty object, so we dont get undefined error
     $scope.ticket = {};
+
+    // Get all users
+    var getUsers = function() {
+      $http.get($rootScope.appUrl + '/users.json').success(function(data, status, headers, config) {
+        $scope.users = data.users;
+      });
+    }
+    getUsers();
 
     // decide if we are creating or editing a ticket
     if ($routeParams.id) {
@@ -125,17 +135,9 @@
       $scope.ticket_status = 'new';
     }
 
-    // Get all users
-    var getUsers = function() {
-      $http.get($rootScope.appUrl + '/users.json').success(function(data, status, headers, config) {
-        $scope.users = data.users;
-      });
-    }
-    getUsers();
-
-    // Save a new ticket
+    // Save ticket
     $scope.saveTicket = function() {
-      if ($scope.newTicketForm.$invalid === false) {
+      if ($scope.editTicketForm.$invalid === false) {
         $http.post($rootScope.appUrl + '/tickets/save.json', $scope.ticket)
           .success(function(data, status, headers, config) {
             if (data.message.type == 'success') {
@@ -147,7 +149,7 @@
 
     // close ticket
     $scope.closeTicket = function(id) {
-      if ($scope.newTicketForm.$invalid === false) {
+      if ($scope.editTicketForm.$invalid === false) {
         $http.post($rootScope.appUrl + '/tickets/close/' + id + '.json', $scope.ticket)
           .success(function(data, status, headers, config) {
             if (data.message.type == 'success') {
@@ -159,7 +161,7 @@
 
     // open ticket
     $scope.openTicket = function(id) {
-      if ($scope.newTicketForm.$invalid === false) {
+      if ($scope.editTicketForm.$invalid === false) {
         $http.post($rootScope.appUrl + '/tickets/open/' + id + '.json', $scope.ticket)
           .success(function(data, status, headers, config) {
             if (data.message.type == 'success') {
@@ -178,6 +180,41 @@
           }
         })
     }
+  });
+
+  /**
+  * Edit user controller
+  */
+  controllers.controller('EditUserController', function($scope, $rootScope, $http, $location, $routeParams) {
+
+    // Create empty object, so we dont get undefined error
+    $scope.user = {};
+
+    // decide if we are creating or editing use
+    if ($routeParams.id) {
+      $scope.title = "Edit user";
+      $scope.action_name = 'Save';
+      // get the user
+      $http.get($rootScope.appUrl + '/users/view/' + $routeParams.id + '.json').success(function(data, status, headers, config) {
+        $scope.user = data.user.User;
+      });
+    } else {
+      $scope.title = "Create new user";
+      $scope.action_name = 'Create';
+    }
+
+    // Save user
+    $scope.saveUser = function() {
+      if ($scope.editUserForm.$invalid === false) {
+        $http.post($rootScope.appUrl + '/users/save.json', $scope.user)
+          .success(function(data, status, headers, config) {
+            if (data.message.type == 'success') {
+              $location.path('/tickets');
+            }
+          })
+      }
+    }
+
   });
 
 }(window.angular))

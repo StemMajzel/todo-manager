@@ -23,6 +23,11 @@ After that, it only takes one command to set everything up:
 vagrant up && composer install
 ```
 
+Install database schema:
+```sh
+Console/cake schema create
+```
+
 This is installed and downloaded automatically:
 
 - Apache strežnik (installed and configured)
@@ -164,9 +169,9 @@ public $components = array(
     PRIMARY KEY (`id`)
   ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
-  INSERT INTO `user` (`id`, `username`, `password`, `role`, `created`, `modified`) VALUES
-  (1, 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'administrator', '2016-03-19 00:00:00', NULL),
-  (2, 'user', '12dea96fec20593566ab75692c9949596833adc9', 'user', '2016-03-19 00:00:00', NULL);
+  INSERT INTO `user` (`id`, `username`, `created`, `modified`) VALUES
+  (1, 'admin', '2016-03-19 00:00:00', NULL),
+  (2, 'user', '2016-03-19 00:00:00', NULL);
 ```
 
 ## License

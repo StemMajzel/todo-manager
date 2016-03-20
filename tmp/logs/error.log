@@ -1594,3 +1594,187 @@ Request URL: /webroot/app/lib/angular/angular-route-min.js
 Stack Trace:
 #0 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-03-20 20:49:43 Error: [MissingTableException] Table ticket for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ticket',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /tickets/range/0/7/Ticket.priority/asc.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3653): Model->setSource('ticket')
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#3 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#4 [internal function]: TicketsController->range('0', '7', 'Ticket.priority', 'asc')
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#8 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-03-20 20:49:43 Error: [MissingTableException] Table ticket for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ticket',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /tickets/range/0/7/Ticket.priority/asc.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3653): Model->setSource('ticket')
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#3 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#4 [internal function]: TicketsController->range('0', '7', 'Ticket.priority', 'asc')
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#8 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-03-20 20:49:45 Error: [MissingTableException] Table ticket for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ticket',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /tickets/range/0/2/Ticket.priority/desc.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3653): Model->setSource('ticket')
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#3 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#4 [internal function]: TicketsController->range('0', '2', 'Ticket.priority', 'desc')
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#8 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-03-20 20:49:49 Error: [MissingTableException] Table ticket for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ticket',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /tickets/range/0/7/Ticket.priority/asc.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3653): Model->setSource('ticket')
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#3 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#4 [internal function]: TicketsController->range('0', '7', 'Ticket.priority', 'asc')
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#8 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-03-20 20:49:49 Error: [MissingTableException] Table ticket for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ticket',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /tickets/range/0/7/Ticket.priority/asc.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3653): Model->setSource('ticket')
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#3 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#4 [internal function]: TicketsController->range('0', '7', 'Ticket.priority', 'asc')
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#8 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-03-20 20:49:50 Error: [MissingTableException] Table ticket for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'ticket',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /tickets/range/0/2/Ticket.priority/desc.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3653): Model->setSource('ticket')
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#3 /vagrant/Controller/TicketsController.php(35): Model->find('all', Array)
+#4 [internal function]: TicketsController->range('0', '2', 'Ticket.priority', 'desc')
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketsController), Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest))
+#8 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-03-20 21:18:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.-1' in 'field list'
+Request URL: /users/view/1.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /vagrant/Controller/UsersController.php(37): Model->__call('findById', Array)
+#9 /vagrant/Controller/UsersController.php(37): User->findById('1', Array)
+#10 [internal function]: UsersController->view('1')
+#11 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2016-03-20 21:18:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.-1' in 'field list'
+Request URL: /users/view/1.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /vagrant/Controller/UsersController.php(37): Model->__call('findById', Array)
+#9 /vagrant/Controller/UsersController.php(37): User->findById('1', Array)
+#10 [internal function]: UsersController->view('1')
+#11 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2016-03-20 21:18:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.-1' in 'field list'
+Request URL: /users/view/1.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /vagrant/Controller/UsersController.php(37): Model->__call('findById', Array)
+#9 /vagrant/Controller/UsersController.php(37): User->findById('1', Array)
+#10 [internal function]: UsersController->view('1')
+#11 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2016-03-20 21:20:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.-1' in 'field list'
+Request URL: /users/view/1.json
+Stack Trace:
+#0 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /vagrant/Controller/UsersController.php(37): Model->__call('findById', Array)
+#9 /vagrant/Controller/UsersController.php(37): User->findById('1', Array)
+#10 [internal function]: UsersController->view('1')
+#11 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /vagrant/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /vagrant/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}

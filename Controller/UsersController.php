@@ -25,4 +25,28 @@ class UsersController extends AppController {
 		));
 	}
 
+	/**
+	* Return user by ID - access with /users/view/ID.json
+	* @param id user id
+	*/
+	public function view($id) {
+		$user = $this->User->findById($id);
+		$this->set(array(
+			'user' => $user,
+			'_serialize' => array('user')
+		));
+	}
+
+	/**
+	* Save user - access with /users/save.json + POST DATA
+	*/
+	public function save() {
+		$this->User->save($this->request->data);
+
+		$this->set(array(
+			'message' => $this->User->makeMessage($this->User->validationErrors, __('User saved')),
+			'_serialize' => array('message')
+		));
+	}
+
 }
